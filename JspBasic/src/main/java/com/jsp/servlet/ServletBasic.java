@@ -50,7 +50,7 @@ public class ServletBasic extends HttpServlet {
 //    	- 매개값으로 요청, 응답 내장 객체가 전달됩니다. 
 //		 */
 //		
-//		/*
+//	
 //		// 요청 방식이 뭐니?
 //		String method = request.getMethod();
 //		// 요청 URI가 뭐니?
@@ -65,7 +65,7 @@ public class ServletBasic extends HttpServlet {
 //		System.out.println("uri: " + uri);
 //		System.out.println("queryString: " + queryString);
 //		System.out.println("addr: " + addr);
-//		*/
+//		
 //		
 //		// 요청과 함께 전달된 파라미터를 낱개로 얻는 방법
 //		String account = request.getParameter("account");
@@ -141,8 +141,6 @@ public class ServletBasic extends HttpServlet {
 		// 대부분 객체 반납이나 소멸 등에 사용.
 		System.out.println("destroy 메서드가 호출됨!");
 	}
-	
-	
 	
 }
 
